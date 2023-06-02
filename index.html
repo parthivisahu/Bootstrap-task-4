@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BS Task 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+    <script src="path/to/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body{
+        margin: 10px;
+    }
+    .row{
+        border-bottom: 1px solid grey;
+        padding: 10px;
+    }
+    .col-12{
+        padding: 50px;
+        text-align: center;
+    }
+    
+
+</style>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            Company Name
+        </div>
+        <div class="col-md-1">Features</div>
+        <div class="col-md-1">Enterprise</div>
+        <div class="col-md-1">Support</div>
+        <div class="col-md-1">Pricing</div>
+        <div class="col-md-1">
+            <button type="submit" value="Sign up">Sign Up</button>
+        </div>
+    </div>
+    <div class="col-12">
+        <h1>Pricing</h1>
+        <p>Quickly build an effective pricing table for your potential customers with this <br>
+        Bootstrap example. It's built with default Bootstrap components and utilities <br>
+        with little customization.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 ">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">"$29
+                        <small class="text-body-secondary fw-light">/mo</small>
+                    </h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="data:image/jpeg;base64,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" alt width="24" height="19">
+                <small class="d-block mb-3 text-body-secondary">©2017-2023</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-body-secondary" href="#">Cool stuff</a></li>
+                    <li><a class="text-body-secondary" href="#">Random feature</a></li>
+                    <li><a class="text-body-secondary" href="#">Team feature</a></li>
+                    <li><a class="text-body-secondary" href="#">Stuff for developers</a></li>
+                    <li><a class="text-body-secondary" href="#">Another one</a></li>
+                    <li><a class="text-body-secondary" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-body-secondary" href="#">Resource</a></li>
+                    <li><a class="text-body-secondary" href="#">Resource name</a></li>
+                    <li><a class="text-body-secondary" href="#">Another resource</a></li>
+                    <li><a class="text-body-secondary" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-body-secondary" href="#">Team</a></li>
+                    <li><a class="text-body-secondary" href="#">Locations</a></li>
+                    <li><a class="text-body-secondary" href="#">Privacy</a></li>
+                    <li><a class="text-body-secondary" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+</body>
+</html>
